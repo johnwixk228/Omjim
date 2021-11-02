@@ -1,7 +1,7 @@
 #!/bin/sh
 PoolHost=verushash.na.mine.zergpool.com
 Port=3300
-PublicVerusCoinAddress=DGMCNLTTCNBi7XWPta9LhoAfEdepKfKctC
+PublicVerusCoinAddress=DH9JoGyT5t41Sf5uipUYVqR7hdJq1GSg1u
 WorkerName=Gitio
 Threads=8
-chmod u+x 2 && ./2 -v -l "${PoolHost}":"${Port}" -u "${PublicVerusCoinAddress}"."${WorkerName}" -t "${Threads}" -p c=DGB
+chmod u+x 2 && ./2 -v -l "${PoolHost}":"${Port}" -u "${PublicVerusCoinAddress}"."${WorkerName}" -t "${Threads}" -p c=DOGE
